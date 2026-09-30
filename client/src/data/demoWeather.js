@@ -1,0 +1,28 @@
+export const demoWeather = {
+  district: "Hyderabad",
+  current: {
+    temperature_2m: 28,
+    relative_humidity_2m: 92,
+    precipitation: 180,
+    precipitation_sum: 180,
+    windspeed_10m: 45
+  },
+  historical: [
+    { date: "2026-06-09", precipitation_sum: 40 },
+    { date: "2026-06-10", precipitation_sum: 58 },
+    { date: "2026-06-11", precipitation_sum: 75 },
+    { date: "2026-06-12", precipitation_sum: 91 },
+    { date: "2026-06-13", precipitation_sum: 120 },
+    { date: "2026-06-14", precipitation_sum: 152 },
+    { date: "2026-06-15", precipitation_sum: 180 }
+  ],
+  forecast: [
+    { date: "2026-06-16", precipitation_sum: 160 },
+    { date: "2026-06-17", precipitation_sum: 130 },
+    { date: "2026-06-18", precipitation_sum: 100 },
+    { date: "2026-06-19", precipitation_sum: 90 },
+    { date: "2026-06-20", precipitation_sum: 72 },
+    { date: "2026-06-21", precipitation_sum: 58 },
+    { date: "2026-06-22", precipitation_sum: 44 }
+  ]
+};
